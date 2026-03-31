@@ -161,8 +161,7 @@ Online_qr_attendance_system/
 │
 ├── app.py                          # Main Flask application & API routes
 ├── database_pro.sql                # Full database schema & seed data
-├── requirements.txt                # Python dependencies
-└── README.md
+└── requirements.txt                # Python dependencies
 ```
  
 ---
@@ -178,8 +177,8 @@ Online_qr_attendance_system/
  
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/qr-attendance.git
-   cd qr-attendance
+   git clone https://github.com/chan-814/Online_qr_attendance_management_system.git
+   cd Online_qr_attendance_management_system/Online_qr_attendance_system
    ```
  
 2. **Install dependencies**
@@ -189,7 +188,6 @@ Online_qr_attendance_system/
  
 3. **Set up the database**
    - Open **phpMyAdmin** at `http://localhost/phpmyadmin`
-   - Create a new database named `attendance_db`
    - Go to **Import** → select `database_pro.sql` → click **Go**
  
 4. **Run the application**
